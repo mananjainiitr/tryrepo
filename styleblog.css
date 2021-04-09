@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ .first{
+    
+    background-size:cover;
+background-position: center;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+flex-wrap: wrap;
+
+
+    
+}
+.l1
+{
+    flex : 50%;
+    height : 60px;
+    background-color:#ffffff;
+    position:sticky;
+    position: -webkit-sticky;
+position: sticky;
+
+top: 0;
+margin-top: 0px;
+display: inline-flex;
+
+
+}
+.r1
+{
+    flex : 50%;
+    height : 60px;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    
+    
+
+
+}
+   .nav-button{
+    flex-grow: 4;
+    height :70px;
+    text-align: center;
+    
+    max-width:80px;
+
+    
+    text-decoration: none;
+        
+        font-family: 'Bebas Neue', cursive;
+        color:black;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        
+
+    }
+   .container1{
+
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       position:static;
+       
+      
+   }
+   .poster{
+       flex-grow:inherit;
+       padding:10px;
+       margin:20px;
+       border : 2px solid rgba(0, 0, 0, 0.055)!important;
+       border-radius: 10px;
+       position: relative;
+       
+   }
+   .name{
+    border-top: 1px solid rgba(0,0,0,.05)!important;
+    border-top-width: 1px !important;
+    border-top-style: solid !important;
+     border-top-color: rgba(0, 0, 0, 0.05) !important;
+     color: rgba(0,0,0,.4);
+     
+     width: 100%;
+     text-align: center;
+     
+     padding-top: 15px;
+    
+     
+     
+     
+    
+   }
+   .date{
+       display: inline;
+       margin-right: 0px;
+       text-align: right;
+       
+       
+       
+   }
+   .poster:hover{
+   bottom:10px;
+
+   }
+   #imgref{
+margin-left:15%;
+  }
+  #hammburger{
+        display:none;
+
+        } 
+        .blo{
+            display:none;
+        }
+        .mlogo{
+            text-align: center;
+            width:100%;
+        }
+
+        @media only screen and (max-width: 756px) {
+            #hammburger{
+            display:inline-block;
+
+
+              }
+              .nav-button{
+                max-width: none;
+                
+                
+                }
+                .r1{
+                display:none;
+                text-align: center;
+                }
+                #imgref{
+                    margin-left: 5%;
+
+                }
+                .blo{
+                    display: block;
+                }
+            
+            }
+
+
+
+
+
