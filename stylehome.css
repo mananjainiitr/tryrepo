@@ -280,7 +280,7 @@ margin-left:10%;
   text-align: left;
   padding-left: 5%;
 }
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1000px) {
   [class *= link] {
 
     width:35%;
